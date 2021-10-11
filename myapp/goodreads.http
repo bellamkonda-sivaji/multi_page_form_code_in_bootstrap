@@ -1,0 +1,19 @@
+GET http://localhost:3000/user/
+
+###
+
+POST http://localhost:3000/user/
+
+Content-Type: "application/json"
+
+{
+"name":"ramesh",
+"gender":"male",
+"age":20,
+"emailId":"sibddjwb@gmail.com",
+"password":"Kgfeffrj@123",
+"pincode":524129,
+"state":"ap",
+"city":"nellore",
+"phoneNumber":5514842582
+}
